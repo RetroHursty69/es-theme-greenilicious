@@ -1,0 +1,57 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+
+	<view name="system">
+                <image name="boxart" extra="true">
+                   <pos>0.66 0.45</pos>
+                   <maxSize>0.3 0.35</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/boxart.png</path>
+                </image>
+                <image name="flyer" extra="true">
+                   <pos>0.29 0.08</pos>
+                   <maxSize>0.4 0.82</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/flyer.png</path>
+                </image>
+                <image name="system" extra="true">
+                   <pos>0.69 0.099</pos>
+                   <maxSize>0.24 0.24</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/system.png</path>
+                </image>
+    </view> 
+    
+    <view name="basic">
+                <image name="boxart" extra="true">
+                   <pos>0.45 0.4</pos>
+                   <maxSize>0.43 0.35</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/boxart.png</path>
+                </image>
+                <image name="flyer" extra="true">
+                   <pos>0.67 0.46</pos>
+                   <maxSize>0.3 0.3</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/flyer.png</path>
+                </image>
+    </view>   
+    
+    <view name="detailed">
+                <image name="boxart" extra="true">
+                   <pos>0.725 0.37</pos>
+                   <maxSize>0.17 0.17</maxSize>
+                   <zIndex>40</zIndex>
+                   <path>./_inc/boxart.png</path>
+                </image>
+    </view>                                           
+
+    
+</theme>
